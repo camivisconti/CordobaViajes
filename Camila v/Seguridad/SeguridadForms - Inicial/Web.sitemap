@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title=""  description="" roles="*">
+    <siteMapNode url="Default.aspx" title="Pagina principal"  description="descripcion principal"/>
+    <siteMapNode url="" title="Ventas"  description="descripcion Ventas" roles="administradores,clientes">
+      <siteMapNode url="VentasContado.aspx" title="Ventas Contado"  description="descripcion Ventas Contado" roles="clientes"/>
+      <siteMapNode url="VentasCredito.aspx" title="Ventas Credito"  description="descripcion Ventas Credito" roles="administradores,clientes"/>
+    </siteMapNode>
+    <siteMapNode url="ConfiguracionesSitio.aspx" title="Configuraciones del Sitio"  description="descripcion Configuraciones del Sitio" roles="administradores"/>
+    <siteMapNode url="" title="Acerca de"  description="descripcion Acerca de" />
+  </siteMapNode>
+</siteMap>
